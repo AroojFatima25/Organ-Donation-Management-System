@@ -13,16 +13,20 @@ This is a console-based Organ Donation Management System developed in C++ using 
 ##  Concepts Used
 - Classes & Objects
 - Encapsulation
+- Inheritance
 - File Handling
 - Conditional Logic
 - Menu-driven console UI
 
 ## File Structure
-- Donor.cpp / Donor.txt: Donor class
-- Recipient.cpp / Recipient.txt: Recipient class
-- OrganInventory.cpp`: Inventory and compatibility logic
-- main.cpp: Program execution and menu system
-- donors.txt / recipients.txt: Data storage
+Organ Donation System
+- main.cpp                  # Main file with menu-driven system
+- Donor.cpp                 # Donor class implementation
+- Recipient.cpp             # Recipient class implementation
+- OrganInventory.cpp        # Organ compatibility and inventory logic
+- donors.txt                # Stores donor information
+- recipients.txt            # Stores recipient information
+  
 
 ## How to Run
 1. Compile using a C++ compiler (e.g., g++, Dev-C++, Code::Blocks)
